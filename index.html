@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Gen By argoars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Key Gen by argoars</h1>
+        <label for="gameSelect">Select Game:</label>
+        <select id="gameSelect">
+            <option value="1">Riding Extreme 3D</option>
+            <option value="2">Chain Cube 2048</option>
+            <option value="3">My Clone Army</option>
+            <option value="4">Train Miner</option>
+        </select>
+
+        <label for="keyCount">Number of Keys to Generate:</label>
+        <input type="number" id="keyCount" min="1" max="4" value="1">
+
+        <button id="startButton" onclick="startProcess()">Start Process</button>
+
+        <a href="https://t.me/HamsterKombatFun_n" class="tg-button" target="_blank">Канал тг создателя</a>
+        <a href="https://soclider.ru/services" class="ref-button" target="_blank">Самые дешевые рефералы для Hamster kombat</a>
+
+        <div class="progress-container">
+            <div id="progressBar" class="progress-bar">
+                <div id="progressBarFill" class="progress-bar-fill">0%</div>
+            </div>
+        </div>
+
+        <div id="codeList" class="code-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
