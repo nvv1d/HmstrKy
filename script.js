@@ -1,1 +1,189 @@
-const _0x2aa682=_0x5b18;(function(_0xe95f37,_0x2f6656){const _0x2a6ffb=_0x5b18,_0x1eccd5=_0xe95f37();while(!![]){try{const _0x3e5204=-parseInt(_0x2a6ffb(0x9d))/0x1+-parseInt(_0x2a6ffb(0xc4))/0x2+parseInt(_0x2a6ffb(0xa9))/0x3+-parseInt(_0x2a6ffb(0x85))/0x4*(-parseInt(_0x2a6ffb(0xa2))/0x5)+parseInt(_0x2a6ffb(0x9f))/0x6+-parseInt(_0x2a6ffb(0xc7))/0x7*(parseInt(_0x2a6ffb(0x90))/0x8)+-parseInt(_0x2a6ffb(0xa8))/0x9*(parseInt(_0x2a6ffb(0xb5))/0xa);if(_0x3e5204===_0x2f6656)break;else _0x1eccd5['push'](_0x1eccd5['shift']());}catch(_0x4c5c41){_0x1eccd5['push'](_0x1eccd5['shift']());}}}(_0xcaf4,0xe3b47));function _0xcaf4(){const _0x1e5463=['10002024ZhNXPX','Polysphere','Error\x20registering\x20event:','2915ezIUzU','2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71','dc128d28-c45b-411c-98ff-ac7726fbaea4','Zoopolis','Error\x20logging\x20in\x20client:','from','6687BaJqic','4621107abwFIC','width','\x20-\x20Error:\x20','ef319a80-949a-492e-8ee0-424fb5fc20a6','deviceid','random','gameSelect','<br>','log','Fluff\x20Crusade','promoId','push','13190mrzXKW','Error\x20creating\x20code:','Chain\x20Cube\x202048','61308365-9d16-4040-8bb0-2f4a4c69074c','b4170868-cef0-424f-8eb9-be0622e8e8e3','POST','https://api.gamepromo.io/promo/create-code','all','now','application/json;\x20charset=utf-8','getElementById','message','keyCount','d1690a07-3780-4068-810f-9b5bbf2931b2','disabled','1785980NIVAjC','Retry\x20register\x20event','c4480ac7-e178-4973-8061-9ed5b2e17954','6214691oHmpQe','textContent','json','clientToken','6052qeMRyR','style','value','100%','8d1cc2ad-e097-4b86-90ef-7a27e19fb833','Mow\x20and\x20Trim','82647f43-3f87-402d-88dd-09a90025313f','b2436c89-e0aa-4aed-8046-9b0515e1c46b','innerHTML','join','https://api.gamepromo.io/promo/register-event','8dpsgmN','progressBarFill','replace','Merge\x20Away','startButton','promoCode','stringify','error','112887b0-a8af-4eb2-ac63-d82df78283d9','appToken','interval','round','floor','395953hSiCsK','undefined'];_0xcaf4=function(){return _0x1e5463;};return _0xcaf4();}const games={0x1:{'name':_0x2aa682(0xb7),'appToken':_0x2aa682(0xc2),'promoId':_0x2aa682(0xb9)},0x2:{'name':'Train\x20Miner','appToken':_0x2aa682(0x8b),'promoId':_0x2aa682(0xc6)},0x3:{'name':_0x2aa682(0x93),'appToken':_0x2aa682(0x89),'promoId':_0x2aa682(0xa4)},0x4:{'name':'Twerk\x20Race\x203D','appToken':_0x2aa682(0xb8),'promoId':_0x2aa682(0xb8)},0x5:{'name':_0x2aa682(0xa0),'appToken':_0x2aa682(0xa3),'promoId':_0x2aa682(0xa3)},0x6:{'name':_0x2aa682(0x8a),'appToken':_0x2aa682(0xac),'promoId':'ef319a80-949a-492e-8ee0-424fb5fc20a6'},0x7:{'name':_0x2aa682(0xa5),'appToken':_0x2aa682(0x8c),'promoId':_0x2aa682(0x8c)},0x8:{'name':_0x2aa682(0xb2),'appToken':_0x2aa682(0x98),'promoId':_0x2aa682(0x98)}};function generateClientId(){const _0x48e69f=_0x2aa682,_0x5bb644=Date[_0x48e69f(0xbd)](),_0x49d190=Array[_0x48e69f(0xa7)]({'length':0x13},()=>Math[_0x48e69f(0x9c)](Math[_0x48e69f(0xae)]()*0xa))[_0x48e69f(0x8e)]('');return _0x5bb644+'-'+_0x49d190;}async function loginClient(_0x22e956){const _0x3df3d4=_0x2aa682,_0x584e8c=generateClientId(),_0x2e1d50='https://api.gamepromo.io/promo/login-client',_0x45dc55={'appToken':_0x22e956[_0x3df3d4(0x99)],'clientId':_0x584e8c,'clientOrigin':_0x3df3d4(0xad)},_0x3080d8={'Content-Type':_0x3df3d4(0xbe)};try{const _0x3b3ca5=await fetch(_0x2e1d50,{'method':_0x3df3d4(0xba),'headers':_0x3080d8,'body':JSON[_0x3df3d4(0x96)](_0x45dc55)}),_0x318045=await _0x3b3ca5['json']();return _0x318045[_0x3df3d4(0x84)];}catch(_0x5b0d1b){return console[_0x3df3d4(0x97)](_0x3df3d4(0xa6),_0x5b0d1b[_0x3df3d4(0xc0)]),await new Promise(_0x3467d2=>setTimeout(_0x3467d2,0x1388)),loginClient(_0x22e956);}}async function registerEvent(_0x2bf578,_0x49b506){const _0x10ad83=_0x2aa682,_0x3bc7aa=generateRandomUUID(),_0x2a0baa=_0x10ad83(0x8f),_0x3c352a={'promoId':_0x2bf578[_0x10ad83(0xb3)],'eventId':_0x3bc7aa,'eventOrigin':_0x10ad83(0x9e)},_0x582b9a={'Authorization':'Bearer\x20'+_0x49b506,'Content-Type':_0x10ad83(0xbe)};try{const _0x130bfb=await fetch(_0x2a0baa,{'method':_0x10ad83(0xba),'headers':_0x582b9a,'body':JSON[_0x10ad83(0x96)](_0x3c352a)}),_0x261a9f=await _0x130bfb[_0x10ad83(0xc9)]();return!_0x261a9f['hasCode']?(console[_0x10ad83(0xb1)](_0x10ad83(0xc5)),await new Promise(_0x40d837=>setTimeout(_0x40d837,_0x2bf578['interval']*0x3e8)),registerEvent(_0x2bf578,_0x49b506)):!![];}catch(_0x4084f5){return console['error'](_0x10ad83(0xa1),_0x4084f5['message']),await new Promise(_0x2b8d40=>setTimeout(_0x2b8d40,_0x2bf578[_0x10ad83(0x9a)]*0x3e8)),registerEvent(_0x2bf578,_0x49b506);}}async function createCode(_0x8e9565,_0x2fb966){const _0x250002=_0x2aa682;let _0x243bc7;do{try{const _0x11f163=_0x250002(0xbb),_0x4e9955={'promoId':_0x8e9565['promoId']},_0x503ac8={'Authorization':'Bearer\x20'+_0x2fb966,'Content-Type':_0x250002(0xbe)};_0x243bc7=await fetch(_0x11f163,{'method':_0x250002(0xba),'headers':_0x503ac8,'body':JSON[_0x250002(0x96)](_0x4e9955)});const _0x1850a4=await _0x243bc7['json']();if(_0x1850a4[_0x250002(0x95)])return _0x1850a4[_0x250002(0x95)];}catch(_0x43cb30){console[_0x250002(0x97)](_0x250002(0xb6),_0x43cb30[_0x250002(0xc0)]),await new Promise(_0x309548=>setTimeout(_0x309548,_0x8e9565[_0x250002(0x9a)]*0x3e8));}}while(!_0x243bc7||!_0x243bc7[_0x250002(0x95)]);}function generateRandomUUID(){const _0x164618=_0x2aa682;return'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'[_0x164618(0x92)](/[xy]/g,function(_0x2215b8){const _0x1b6da9=_0x164618,_0x19bbee=Math[_0x1b6da9(0xae)]()*0x10|0x0,_0x4dc327=_0x2215b8==='x'?_0x19bbee:_0x19bbee&0x3|0x8;return _0x4dc327['toString'](0x10);});}function _0x5b18(_0x566ff0,_0x1bd75a){const _0xcaf4c2=_0xcaf4();return _0x5b18=function(_0x5b1853,_0x12af35){_0x5b1853=_0x5b1853-0x84;let _0x2b1ed8=_0xcaf4c2[_0x5b1853];return _0x2b1ed8;},_0x5b18(_0x566ff0,_0x1bd75a);}async function startProcess(){const _0x8f9cb4=_0x2aa682,_0x6e72d0=document[_0x8f9cb4(0xbf)](_0x8f9cb4(0x94));_0x6e72d0[_0x8f9cb4(0xc3)]=!![];const _0x452ded=document[_0x8f9cb4(0xbf)](_0x8f9cb4(0x91)),_0x19f469=document[_0x8f9cb4(0xbf)]('codeList'),_0x490db1=document[_0x8f9cb4(0xbf)](_0x8f9cb4(0xaf)),_0x115054=document['getElementById'](_0x8f9cb4(0xc1)),_0x27aac6=parseInt(_0x490db1[_0x8f9cb4(0x87)]),_0x3b568b=parseInt(_0x115054[_0x8f9cb4(0x87)]),_0x13c6fb=games[_0x27aac6];_0x19f469[_0x8f9cb4(0x8d)]='';const _0x1b8e99=[];for(let _0x528a03=0x0;_0x528a03<_0x3b568b;_0x528a03++){_0x1b8e99[_0x8f9cb4(0xb4)]((async _0x4b46eb=>{const _0x10fd70=_0x8f9cb4;try{const _0x421d57=await loginClient(_0x13c6fb);await registerEvent(_0x13c6fb,_0x421d57);const _0x116ba5=await createCode(_0x13c6fb,_0x421d57);_0x19f469[_0x10fd70(0x8d)]+=_0x116ba5+_0x10fd70(0xb0);}catch(_0x46db55){_0x19f469[_0x10fd70(0x8d)]+='Process\x20'+(_0x4b46eb+0x1)+_0x10fd70(0xab)+_0x46db55[_0x10fd70(0xc0)]+'<br>';}const _0xfad80d=(_0x4b46eb+0x1)/_0x3b568b*0x64;_0x452ded['style']['width']=_0xfad80d+'%',_0x452ded[_0x10fd70(0xc8)]=Math[_0x10fd70(0x9b)](_0xfad80d)+'%';})(_0x528a03));}await Promise[_0x8f9cb4(0xbc)](_0x1b8e99),_0x452ded[_0x8f9cb4(0x86)][_0x8f9cb4(0xaa)]=_0x8f9cb4(0x88),_0x452ded[_0x8f9cb4(0xc8)]='100%',_0x6e72d0['disabled']=![];}
+    const games = {
+        1: {
+            name: 'Chain Cube 2048',
+            appToken: 'd1690a07-3780-4068-810f-9b5bbf2931b2',
+            promoId: 'b4170868-cef0-424f-8eb9-be0622e8e8e3',
+        },
+        2: {
+            name: 'Train Miner',
+            appToken: '82647f43-3f87-402d-88dd-09a90025313f',
+            promoId: 'c4480ac7-e178-4973-8061-9ed5b2e17954',
+        },
+        3: {
+            name: 'Merge Away',
+            appToken: '8d1cc2ad-e097-4b86-90ef-7a27e19fb833',
+            promoId: 'dc128d28-c45b-411c-98ff-ac7726fbaea4',
+        },
+        4: {
+            name: 'Twerk Race 3D',
+            appToken: '61308365-9d16-4040-8bb0-2f4a4c69074c',
+            promoId: '61308365-9d16-4040-8bb0-2f4a4c69074c',
+        },
+        5: {
+            name: 'Polysphere',
+            appToken: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+            promoId: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+        },
+        6: {
+            name: 'Mow and Trim',
+            appToken: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
+            promoId: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
+        },
+        7: {
+            name: 'Zoopolis',
+            appToken: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
+            promoId: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
+        },
+        8: {
+            name: 'Fluff Crusade',
+            appToken: '112887b0-a8af-4eb2-ac63-d82df78283d9',
+            promoId: '112887b0-a8af-4eb2-ac63-d82df78283d9',
+        },
+        9: {
+            name: 'Tile Trio',
+            appToken: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
+            promoId: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
+        }
+    };
+
+function generateClientId() {
+    const timestamp = Date.now();
+    const randomNumbers = Array.from({ length: 19 }, () => Math.floor(Math.random() * 10)).join('');
+    return `${timestamp}-${randomNumbers}`;
+}
+
+async function loginClient(game) {
+    const clientId = generateClientId();
+    const url = 'https://api.gamepromo.io/promo/login-client';
+    const data = {
+        appToken: game.appToken,
+        clientId: clientId,
+        clientOrigin: 'deviceid'
+    };
+    const headers = {
+        'Content-Type': 'application/json; charset=utf-8',
+    };
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(data)
+        });
+        const result = await response.json();
+        return result.clientToken;
+    } catch (error) {
+        console.error('Error logging in client:', error.message);
+        await new Promise(resolve => setTimeout(resolve, 5000));
+        return loginClient(game); // Retry on error
+    }
+}
+
+async function registerEvent(game, token) {
+    const eventId = generateRandomUUID();
+    const url = 'https://api.gamepromo.io/promo/register-event';
+    const data = {
+        promoId: game.promoId,
+        eventId: eventId,
+        eventOrigin: 'undefined'
+    };
+    const headers = {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json; charset=utf-8',
+    };
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(data)
+        });
+        const result = await response.json();
+        if (!result.hasCode) {
+            console.log('Retry register event');
+            await new Promise(resolve => setTimeout(resolve, game.interval * 1000)); // Wait for the specified interval before retrying
+            return registerEvent(game, token); // Retry on error
+        } else {
+            return true;
+        }
+    } catch (error) {
+        console.error('Error registering event:', error.message);
+        await new Promise(resolve => setTimeout(resolve, game.interval * 1000)); // Wait for the specified interval before retrying
+        return registerEvent(game, token); // Retry on error
+    }
+}
+
+async function createCode(game, token) {
+    let response;
+    do {
+        try {
+            const url = 'https://api.gamepromo.io/promo/create-code';
+            const data = {
+                promoId: game.promoId
+            };
+            const headers = {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json; charset=utf-8',
+            };
+            response = await fetch(url, {
+                method: 'POST',
+                headers: headers,
+                body: JSON.stringify(data)
+            });
+            const result = await response.json();
+            if (result.promoCode) {
+                return result.promoCode;
+            }
+        } catch (error) {
+            console.error('Error creating code:', error.message);
+            await new Promise(resolve => setTimeout(resolve, game.interval * 1000)); // Wait for the specified interval before retrying
+        }
+    } while (!response || !response.promoCode); // Repeat request if no promo code returned
+}
+
+function generateRandomUUID() {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        const r = Math.random() * 16 | 0,
+              v = c === 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16);
+    });
+}
+
+async function startProcess() {
+    const startButton = document.getElementById('startButton');
+    startButton.disabled = true; // Disable the button
+
+    const progressBarFill = document.getElementById('progressBarFill');
+    const codeList = document.getElementById('codeList');
+    const gameSelect = document.getElementById('gameSelect');
+    const keyCountInput = document.getElementById('keyCount');
+    const selectedGame = parseInt(gameSelect.value);
+    const keyCount = parseInt(keyCountInput.value);
+
+    const game = games[selectedGame];
+
+    codeList.innerHTML = ''; // Clear previous codes
+
+    // Start generating codes in parallel
+    const tasks = [];
+    for (let i = 0; i < keyCount; i++) {
+        tasks.push((async (index) => {
+            try {
+                const token = await loginClient(game);
+                await registerEvent(game, token);
+                const codeData = await createCode(game, token);
+                // Display the code
+                codeList.innerHTML += `${codeData}<br>`;
+            } catch (error) {
+                codeList.innerHTML += `Process ${index + 1} - Error: ${error.message}<br>`;
+            }
+            // Update the progress bar
+            const progress = ((index + 1) / keyCount) * 100;
+            progressBarFill.style.width = `${progress}%`;
+            progressBarFill.textContent = `${Math.round(progress)}%`;
+        })(i));
+    }
+
+    await Promise.all(tasks); // Wait for all tasks to complete
+    progressBarFill.style.width = '100%';
+    progressBarFill.textContent = '100%';
+    startButton.disabled = false; // Enable the button
+}
