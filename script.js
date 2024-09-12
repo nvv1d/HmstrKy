@@ -48,8 +48,14 @@
             name: 'Stone Age',
             appToken: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
             promoId: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
+        },
+        9: {
+            name: 'BOUNC',
+            appToken: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
+            promoId: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
         }
     };
+
 
 function generateClientId() {
     const timestamp = Date.now();
